@@ -1,0 +1,35 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../rtl" --include "../../../../../../rtl/xilinx_ip/clk_pll" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/xilinx_ip/data_ram/sim/data_ram.v" \
+"../../../../../../rtl/xilinx_ip/inst_ram/sim/inst_ram.v" \
+"../../../../../../rtl/adder.v" \
+"../../../../../../rtl/alu.v" \
+"../../../../../../rtl/aludec.v" \
+"../../../../../../rtl/BRIDGE/bridge_1x2.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../rtl/controller.v" \
+"../../../../../../rtl/datapath.v" \
+"../../../../../../rtl/div.v" \
+"../../../../../../rtl/flopenrc.v" \
+"../../../../../../rtl/hazard.v" \
+"../../../../../../rtl/hilo_reg.v" \
+"../../../../../../rtl/maindec.v" \
+"../../../../../../rtl/mips.v" \
+"../../../../../../rtl/mmu.v" \
+"../../../../../../rtl/mux2.v" \
+"../../../../../../rtl/mux3.v" \
+"../../../../project_1.srcs/sources_1/new/mux4.v" \
+"../../../../../../rtl/pc.v" \
+"../../../../../../rtl/regfile.v" \
+"../../../../../../rtl/signext.v" \
+"../../../../../../rtl/sl2.v" \
+"../../../../../../rtl/soc_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

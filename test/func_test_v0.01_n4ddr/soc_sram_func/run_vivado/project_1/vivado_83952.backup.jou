@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jan  5 02:21:49 2022
+# Process ID: 83952
+# Current directory: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent76372 C:\Users\HYH\Desktop\CO-lab-material-CQU-2021\test\func_test_v0.01_n4ddr\soc_sram_func\run_vivado\project_1\project_1.xpr
+# Log file: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/vivado.log
+# Journal file: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1\vivado.jou
+# Running On: LAPTOP-PVUKIF02, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 17024 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/defines2.vh C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/defines.vh}
+add_files -norecurse {C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/flopenr.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/sl2.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/hazard.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/hilo_reg.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/signext.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/flopr.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/div.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/top.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/mips.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/aludec.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/datapath.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/flopenrc.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/maindec.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/eqcmp.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/alu.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/controller.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/mux3.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/floprc.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/mux2.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/adder.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/regfile.v C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/pc.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/top.v] -no_script -reset -force -quiet
+remove_files  C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/top.v
+generate_target all [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+export_ip_user_files -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset clk_pll
+set_property top clk_pll [get_fileset clk_pll]
+move_files -fileset [get_fileset clk_pll] [get_files -of_objects [get_fileset sources_1] C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+generate_target all [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci] -directory C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset data_ram
+set_property top data_ram [get_fileset data_ram]
+move_files -fileset [get_fileset data_ram] [get_files -of_objects [get_fileset sources_1] C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci]
+generate_target all [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci] -directory C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset inst_ram
+set_property top inst_ram [get_fileset inst_ram]
+move_files -fileset [get_fileset inst_ram] [get_files -of_objects [get_fileset sources_1] C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+launch_run {clk_pll_synth_1 data_ram_synth_1 inst_ram_synth_1}
+wait_on_run clk_pll_synth_1
+
+wait_on_run clk_pll_synth_1
+wait_on_run data_ram_synth_1
+
+wait_on_run clk_pll_synth_1
+wait_on_run data_ram_synth_1
+wait_on_run inst_ram_synth_1
+
+launch_simulation
+source tb_top.tcl
+close_sim
+launch_simulation
+source tb_top.tcl
+relaunch_sim
+close_sim
+add_files -norecurse C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/mmu.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
