@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Jan  7 01:48:15 2022
+# Process ID: 748
+# Current directory: C:/Users/admin/Desktop/afterSRAM/board/test/lab4/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/admin/Desktop/afterSRAM/board/test/lab4/project_1/project_1.runs/synth_1/top.vds
+# Journal file: C:/Users/admin/Desktop/afterSRAM/board/test/lab4/project_1/project_1.runs/synth_1\vivado.jou
+# Running On: Derrick, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8402 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12680
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1245.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/admin/Desktop/afterSRAM/board/test/lab4/rtl/top.v:27]
+INFO: [Synth 8-6157] synthesizing module 'mycpu_top' [C:/Users/admin/Desktop/afterSRAM/board/test/lab4/rtl/myCPU/mycpu_top.v:1]
+ERROR: [Synth 8-439] module 'mips' not found [C:/Users/admin/Desktop/afterSRAM/board/test/lab4/rtl/myCPU/mycpu_top.v:24]
+ERROR: [Synth 8-6156] failed synthesizing module 'mycpu_top' [C:/Users/admin/Desktop/afterSRAM/board/test/lab4/rtl/myCPU/mycpu_top.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'top' [C:/Users/admin/Desktop/afterSRAM/board/test/lab4/rtl/top.v:27]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1245.109 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  7 01:48:37 2022...

@@ -1,0 +1,7 @@
++=================+=================+===========================+
+| Launch Clock    | Capture Clock   | Pin                       |
++=================+=================+===========================+
+| cpu_clk_clk_pll | cpu_clk_clk_pll | u_cpu/dp/pcreg/q_reg[2]/D |
+| cpu_clk_clk_pll | cpu_clk_clk_pll | u_cpu/dp/pcreg/q_reg[0]/D |
+| cpu_clk_clk_pll | cpu_clk_clk_pll | u_cpu/dp/pcreg/q_reg[1]/D |
++-----------------+-----------------+---------------------------+

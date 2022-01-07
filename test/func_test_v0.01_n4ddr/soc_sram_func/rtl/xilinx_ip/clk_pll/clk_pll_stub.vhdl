@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
 -- Date        : Wed Jan  5 03:21:05 2022
 -- Host        : LAPTOP-PVUKIF02 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top clk_pll -prefix
+--               clk_pll_ clk_pll_stub.vhdl
 -- Design      : clk_pll
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a100tcsg324-1

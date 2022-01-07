@@ -2,8 +2,8 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Thu Jan  6 16:52:10 2022
-# Process ID: 64776
+# Start of session at: Thu Jan  6 23:29:17 2022
+# Process ID: 93640
 # Current directory: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.runs/inst_ram_synth_1
 # Command line: vivado.exe -log inst_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source inst_ram.tcl
 # Log file: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.runs/inst_ram_synth_1/inst_ram.vds

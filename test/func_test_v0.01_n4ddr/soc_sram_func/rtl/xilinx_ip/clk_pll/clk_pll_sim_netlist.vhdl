@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
 -- Date        : Wed Jan  5 03:21:05 2022
 -- Host        : LAPTOP-PVUKIF02 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top clk_pll -prefix
+--               clk_pll_ clk_pll_sim_netlist.vhdl
 -- Design      : clk_pll
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -14,15 +14,15 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity clk_pll_clk_wiz is
+entity clk_pll_clk_pll_clk_wiz is
   port (
     cpu_clk : out STD_LOGIC;
     timer_clk : out STD_LOGIC;
     clk_in1 : in STD_LOGIC
   );
-end clk_pll_clk_wiz;
+end clk_pll_clk_pll_clk_wiz;
 
-architecture STRUCTURE of clk_pll_clk_wiz is
+architecture STRUCTURE of clk_pll_clk_pll_clk_wiz is
   signal clk_in1_clk_pll : STD_LOGIC;
   signal clkfbout_buf_clk_pll : STD_LOGIC;
   signal clkfbout_clk_pll : STD_LOGIC;
@@ -145,7 +145,7 @@ end clk_pll;
 
 architecture STRUCTURE of clk_pll is
 begin
-inst: entity work.clk_pll_clk_wiz
+inst: entity work.clk_pll_clk_pll_clk_wiz
      port map (
       clk_in1 => clk_in1,
       cpu_clk => cpu_clk,

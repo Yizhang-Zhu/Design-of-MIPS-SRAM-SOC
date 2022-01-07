@@ -85,7 +85,7 @@ module controller(
 	// assign pcsrcD = branchD & equalD;
 
 	//pipeline registers
-	flopenrc #(20) regE(
+	flopenrc #(15) regE(
 		clk,rst,
 		~stallE,
 		flushE,

@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
 // Date        : Wed Jan  5 03:21:05 2022
 // Host        : LAPTOP-PVUKIF02 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top clk_pll -prefix
+//               clk_pll_ clk_pll_sim_netlist.v
 // Design      : clk_pll
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -25,13 +25,13 @@ module clk_pll
   wire cpu_clk;
   wire timer_clk;
 
-  clk_pll_clk_wiz inst
+  clk_pll_clk_pll_clk_wiz inst
        (.clk_in1(clk_in1),
         .cpu_clk(cpu_clk),
         .timer_clk(timer_clk));
 endmodule
 
-module clk_pll_clk_wiz
+module clk_pll_clk_pll_clk_wiz
    (cpu_clk,
     timer_clk,
     clk_in1);

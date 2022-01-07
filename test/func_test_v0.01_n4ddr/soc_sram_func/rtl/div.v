@@ -37,20 +37,20 @@ module div  (
     reg done_r;
     reg sign_quotient,sign_remainder;
 //------------------------------------------------
-    always @(posedge clk or negedge rst) begin
+    always @(posedge clk) begin
         if(rst) i <= 6'd0;
         else if(start && i < 6'd33) i <= i+1'b1; 
         else i <= 6'd0;
     end
 //------------------------------------------------
-    always @(posedge clk or negedge rst) begin
+    always @(posedge clk) begin
         if(rst) done_r <= 1'b0;
         else if(i == 6'd32) done_r <= 1'b1;        
         else done_r <= 1'b0;
     end    
     assign done = done_r;
 //------------------------------------------------
-    always @ (posedge clk or negedge rst)begin
+    always @ (posedge clk)begin
         if(rst) begin
             temp_a <= 64'h0;
             temp_b <= 64'h0;

@@ -2,51 +2,14 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Thu Jan  6 19:14:39 2022
-# Process ID: 70856
-# Current directory: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent79644 C:\Users\HYH\Desktop\CO-lab-material-CQU-2021\test\func_test_v0.01_n4ddr\soc_sram_func\run_vivado\project_1\project_1.xpr
-# Log file: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/vivado.log
-# Journal file: C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1\vivado.jou
-# Running On: LAPTOP-PVUKIF02, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 17024 MB
+# Start of session at: Fri Jan  7 10:23:02 2022
+# Process ID: 8452
+# Current directory: C:/Users/admin/Desktop/afterSRAM/board/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6328 C:\Users\admin\Desktop\afterSRAM\board\test\func_test_v0.01_n4ddr\soc_sram_func\run_vivado\project_1\project_1.xpr
+# Log file: C:/Users/admin/Desktop/afterSRAM/board/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/vivado.log
+# Journal file: C:/Users/admin/Desktop/afterSRAM/board/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1\vivado.jou
+# Running On: Derrick, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8402 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.xpr
+open_project C:/Users/admin/Desktop/afterSRAM/board/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-source tb_top.tcl
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-remove_forces { {/tb_top/soc_lite/u_cpu/dp/alu/diviser/a} }
-relaunch_sim
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-relaunch_sim
-run all
-set_property -dict [list CONFIG.Use_Byte_Write_Enable {true} CONFIG.Byte_Size {8} CONFIG.Write_Width_A {32} CONFIG.Read_Width_A {32} CONFIG.Write_Width_B {32} CONFIG.Read_Width_B {32}] [get_ips data_ram]
-generate_target all [get_files  C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci]
-catch { config_ip_cache -export [get_ips -all data_ram] }
-export_ip_user_files -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
-reset_run data_ram_synth_1
-launch_runs data_ram_synth_1 -jobs 8
-wait_on_run data_ram_synth_1
-export_simulation -of_objects [get_files C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci] -directory C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/HYH/Desktop/CO-lab-material-CQU-2021/test/func_test_v0.01_n4ddr/soc_sram_func/run_vivado/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
-relaunch_sim
-run all
-relaunch_sim
-run all
-close_sim
